@@ -2,7 +2,7 @@
 
 Some info about the game: https://en.wikipedia.org/wiki/Chess
 
-A normal chess game created completely from scratch. No ready templates used. Everything is handmade.
+A normal chess game created completely from scratch. Everything is handmade.
 
 # // TO-DO:
 - Add En Passant move.
