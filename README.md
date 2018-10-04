@@ -1,3 +1,5 @@
+# ► READ ME
+
 Some info about the game: https://en.wikipedia.org/wiki/Chess
 
 A normal chess game created completely from scratch. Everything is handmade.
