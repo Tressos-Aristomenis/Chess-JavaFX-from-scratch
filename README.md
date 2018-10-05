@@ -9,7 +9,7 @@ A normal chess game created completely from scratch. Everything is handmade.
 - Download the .zip file.
 - Extract it.
 - Run the .jar file inside.
-- Enjoy and star my repository if you enjoyed it.
+- Enjoy the game and star my repository if you liked it.
 
 # // TO-DO:
 - Add En Passant move.
