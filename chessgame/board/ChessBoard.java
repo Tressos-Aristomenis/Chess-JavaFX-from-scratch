@@ -138,7 +138,6 @@ public class ChessBoard implements Initializable {
         ImageView img = new ImageView(".resources/Chess_rdt60.png");
         img.setFitHeight(40);
         img.setFitWidth(40);
-        topGrid.add(img, 0, 0);
     }
     
     private void applyCastlingMove(final int startKingRow, final int startKingColumn, Tile kingTile) {
