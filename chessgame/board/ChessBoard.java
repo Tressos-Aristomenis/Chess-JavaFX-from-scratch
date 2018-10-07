@@ -28,17 +28,16 @@ import javafx.scene.layout.GridPane;
  * @author Aris
  */
 public class ChessBoard implements Initializable {
-    final int ROWS = 8;
-    final int COLUMNS = 8;
-    final Map<Tile, Node> TILE_NODE = new HashMap<>();
-	
-    public GridPane mainGrid, topGrid;
+    protected final int ROWS = 8;
+    protected final int COLUMNS = 8;
+    protected final Map<Tile, Node> TILE_NODE = new HashMap<>();
     protected final String LIGHT = "#DBDACE";
     protected final String DARK  = "#CC6600";
     protected final String CLICKED_COLOR = "#FFDF00";
     protected final String AVAILABLE_TILE_COLOR = "#6FFFD9";
     protected final String ENEMY_IN_AVAILABLE_TILE_COLOR = "#FF6666";
     protected final String KING_IN_CHECK_COLOR = "#8B0000";
+	
     private Tile[][] tiles = new Tile[ROWS][COLUMNS];
     private Tile startTile;
     private int currentPlayer;
@@ -46,15 +45,13 @@ public class ChessBoard implements Initializable {
     private Tile kingPosition;
     private int WINNER = 0;
     private boolean gameOver = false;
+    public GridPane mainGrid;
     
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         createNewGame();
     }
-    
-    
-    
     
     
         // --------------------   PAWN RELATED FUNCTIONS   -------------------- \\
